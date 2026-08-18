@@ -46,7 +46,9 @@ The form starts with values from the first row of the dataset. Change any inputs
 
 ## Notebook
 
-`Breast_Cancer_HGBC.ipynb` contains data exploration, feature selection, training, hyperparameter tuning, testing, and experimental results. Its last cell saves the fitted pipeline used by the demo to `models/breast_cancer_hgbc.joblib`.
+`breast_cancer.ipynb` is the main notebook. It contains data exploration, feature selection, HGBC training, hyperparameter tuning, testing, and experimental results. Its last cell saves the fitted pipeline used by the demo to `models/breast_cancer_hgbc.joblib`.
+
+The other `Breast_Cancer_*.ipynb` notebooks contain the individual model experiments used for comparison.
 
 The previous bird-species work is kept in `_old/`.
 

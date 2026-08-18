@@ -36,7 +36,7 @@ X = df.drop(columns=DROP_COLUMNS)
 default = X.iloc[0]
 
 if not MODEL_PATH.exists():
-    st.error("Model not found. Run the Breast_Cancer_HGBC notebook through the final export cell.")
+    st.error("Model not found. Run breast_cancer.ipynb through the final export cell.")
     st.stop()
 
 model = load_model()
