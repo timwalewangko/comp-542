@@ -1,3 +1,10 @@
+"""
+Module: app.py
+Programmer: Tim Walewangko
+Description: Streamlit interface that collects patient and screening inputs,
+loads the trained HGBC pipeline, and displays a cancer prediction.
+"""
+
 from pathlib import Path
 
 import joblib
